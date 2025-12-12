@@ -30,7 +30,7 @@ A modern, responsive Admin Dashboard built with **Next.js** and **Tailwind CSS**
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/admin-dashboard.git
+(https://github.com/Redwanul-Hassan-Labib/DashCode-Admin-dashboard.git)
 cd admin-dashboard
 ```
 
