@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Admin Dashboard
 
-## Getting Started
+A modern, responsive Admin Dashboard built with **Next.js** and **Tailwind CSS**. It includes clean UI components, dynamic tables, charts, authentication, and role‑based features. The codebase is structured, scalable, and ready for production.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+* Secure Authentication (Login & Protected Routes)
+* User & Role Management
+* Dynamic Tables with Search, Filter, Sort
+* Dashboard Overview with Stats & Charts
+* Clean, Modular Component Structure
+* Fully Responsive UI
+* API-ready folder structure
+
+---
+
+## 🛠 Tech Stack
+
+* **Next.js**
+* **Tailwind CSS**
+* **TypeScript** (optional)
+* **REST API ready**
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/admin-dashboard.git
+cd admin-dashboard
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+*or*
+
+```bash
+yarn install
+```
+
+### 3. Environment variables setup
+
+Create a `.env.local` file in the root folder:
+
+```
+NEXT_PUBLIC_API_URL=your_api_url
+JWT_SECRET=your_secret
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
+**[http://localhost:3000](http://localhost:3000)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📁 Folder Structure
 
-## Learn More
+```
+.next/
+action/
+app/
+components/
+config/
+hooks/
+i18n/
+lib/
+messages/
+node_modules/
+pages/
+providers/
+public/
+.env
+.eslintrc.json
+.gitignore
+components.json
+middleware.ts
+next-env.d.ts
+next.config.mjs
+package.json
+package-lock.json
+postcss.config.mjs
+README.md
+theme.config.tsx
+tsconfig.json
+```
 
-To learn more about Next.js, take a look at the following resources:
+admin-dashboard/
+│── public/
+│── src/
+│   ├── app/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   └── styles/
+│── .env.local
+│── package.json
+│── README.md
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+````
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔧 Build for Production
+```bash
+npm run build
+npm start
+````
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
